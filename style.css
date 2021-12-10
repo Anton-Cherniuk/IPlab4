@@ -1,0 +1,26 @@
+table { 
+    width: 100%; 
+    border: 4px black;
+    border-collapse: collapse;
+}
+th { 
+    text-align: center;
+    background: #ccc;
+    padding: 5px;
+    border: 1px solid black;
+}
+td { 
+    padding: 5px; 
+    border: 1px solid black; 
+}
+td + td {
+    text-align: center;
+}
+
+td + td + td {
+    text-align: left;
+}
+
+button {
+    width: 100%;
+}
